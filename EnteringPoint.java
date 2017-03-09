@@ -96,15 +96,11 @@ public class EnteringPoint {
 
 	}
 
-	/**
-	 * Just uncomment one of the lines in order to start the program with needed
-	 * algorithm.
-	 * 
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// DiningPhilFacade.startNormalHierarchySolution();
-		// DiningPhilFacade.startDeadlockedAlgorithm();
+		 DiningPhilFacade.startNormalHierarchySolution();
+		
+		 // Uncomment in order to start deadlocked algorithm 
+		 // DiningPhilFacade.startDeadlockedAlgorithm();
 
 	}
 }
